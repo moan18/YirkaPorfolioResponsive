@@ -1,0 +1,12 @@
+body {
+	background: url(../images-background/background_rinconada.jpg);
+	background-repeat: no-repeat;
+	background-position: relative;
+	width: 100%;
+
+}
+
+h1 {
+
+	color: red;
+}

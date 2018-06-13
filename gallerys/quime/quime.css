@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Arvo|Inconsolata|Macondo|Roboto+Mono|Open+Sans+Condensed:300|Saira+Condensed|Gruppo');
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body, html {
+	    height: 100%;
+		overflow-y:hidden;
+
+}
+
+.header {
+	display: flex;
+    height: 60px;
+	background:rgba(0,0,0,0.9);
+
+
+}
+
+	.menu {
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: space-between;
+		align-items: center;
+		width: 100%;
+
+
+	}
+		.logo {
+		}
+
+			.logo a {
+			  color: white;
+			  text-decoration: none;
+			  font-family: Gruppo;
+			  font-size: 35px;
+    		  padding-left: 30px;
+
+		}
+
+		.nav {
+			display: flex;
+			flex-flow: row nowrap;
+			padding-right: 20px;
+		}
+			.nav a {
+				color: grey;
+				text-decoration: none;
+				font-family: Inconsolata;
+				letter-spacing: 2px;
+				padding-right: 25px;
+
+			}
+
+.nav a:hover {
+	color: white;
+}
